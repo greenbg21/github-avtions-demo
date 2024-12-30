@@ -31,3 +31,7 @@ jobs:
         run: |
           echo "Add other actions to build,"
           echo "test, and deploy your project."
+      #要通行new version code
+      - uses: actions/checkout@v4
+      - name: Run a one-line script
+        run: echo Hello, world!
